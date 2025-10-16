@@ -1,7 +1,7 @@
 #include <string>
 #include "HeaderRecordPostalCodeItem.h"
 #include "HeaderRecordPostalList.h"
-#include "readHeaderRecordPostal.cpp"
+#include "readHeaderRecordPostalCodeBuffer.cpp"
 
 using namespace std;
 
