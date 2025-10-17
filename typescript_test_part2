@@ -1,0 +1,22 @@
+Script started on 2025-10-17 03:13:22+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="146" LINES="14"]
+[?2004h[0;32m@benztranwot [0m➜ [1;34m/workspaces/Project-2-Zip-Code-Team-4 [0;36m([1;31mmain[0;36m) [0m$ g++ make_index.cpp -o project2_part2.exe
+[?2004l
+[?2004h[0;32m@benztranwot [0m➜ [1;34m/workspaces/Project-2-Zip-Code-Team-4 [0;36m([1;31mmain[0;36m) [0m$ ./project2_part2.exe -Z56301 -Z1204 -Z9999999
+[?2004l
+Loaded existing index file: indexfile.bin (40933 entries)
+Zip Code: 56301
+Place Name: Saint Cloud
+State: MN
+County: Stearns
+Lat: 45.541
+Long: -94.1819
+
+1204 not found.
+
+9999999 not found.
+
+[?2004h[0;32m@benztranwot [0m➜ [1;34m/workspaces/Project-2-Zip-Code-Team-4 [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004l
+exit
+
+Script done on 2025-10-17 03:14:10+00:00 [COMMAND_EXIT_CODE="0"]
