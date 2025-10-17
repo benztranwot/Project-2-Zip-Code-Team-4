@@ -1,3 +1,29 @@
+/**
+ * @file main1.cpp
+ * @brief Our first main file for "Zip Code Group 4 Project 2.0" that output the postal sorted by zip code
+ *
+ * @course CSCI 331 - Software Systems — Fall 2025
+ * @project Zip Code Group Project 1.0
+ *
+ * @details
+ * We read a CSV (made from the XLSX), load each row into our list, and then print
+ * the table the assignment asks for: one line per state (A–Z) showing, in this order,
+ * the ZIPs that are farthest East (smallest longitude), West (biggest longitude),
+ * North (biggest latitude), and South (smallest latitude). We also print a header first.
+ *
+ * @authors
+ *  - Tran, Minh Quan
+ *  - Asfaw, Abel
+ *  - Kariniemi, Carson
+ *  - Rogers, Mitchell
+ *  - Farah, Mahad
+ *
+ *
+ * @date Sep 23rd 2025
+ * @version 1.0
+ * @bug None that we know of right now.
+ */
+
 #include <string>
 #include "PostalCodeItem.h"
 #include "PostalList.h"

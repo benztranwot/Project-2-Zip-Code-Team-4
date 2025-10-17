@@ -1,3 +1,10 @@
+/**
+ * @file HeaderRecordPostalList.cpp
+ * @brief Defines and manages HeaderRecord postal code list structures.
+ * @author Mahad Farah, Kariniemi Carson, Tran Minh Quan, Rogers Mitchell, Asfaw Abel
+ * @date 2025-10-17
+ */
+
 #include "HeaderRecordPostalList.h"
 #include <iostream>
 #include <algorithm>

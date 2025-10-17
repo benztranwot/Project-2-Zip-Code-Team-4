@@ -1,3 +1,10 @@
+/**
+ * @file HeaderRecordPostalCodeItem.cpp
+ * @brief Defines and manages individual HeaderRecord postal code items.
+ * @author Mahad Farah, Kariniemi Carson, Tran Minh Quan, Rogers Mitchell, Asfaw Abel
+ * @date 2025-10-17
+ */
+
 #include "HeaderRecordPostalCodeItem.h"
 #include <iostream>
 #include <string>

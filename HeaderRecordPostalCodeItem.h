@@ -1,3 +1,10 @@
+/**
+ * @file HeaderRecordPostalCodeItem.h
+ * @brief Defines and manages individual HeaderRecord postal code items.
+ * @author Mahad Farah, Kariniemi Carson, Tran Minh Quan, Rogers Mitchell, Asfaw Abel
+ * @date 2025-10-17
+ */
+
 #ifndef POSTAL_CODE_ITEM
 #define POSTAL_CODE_ITEM
 

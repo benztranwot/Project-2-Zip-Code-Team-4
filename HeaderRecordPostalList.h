@@ -1,3 +1,10 @@
+/**
+ * @file HeaderRecordPostalList.h
+ * @brief Defines and manages HeaderRecord postal code list structures.
+ * @author Mahad Farah
+ * @date 2025-10-17
+ */
+
 #ifndef POSTAL_LIST_H
 #define POSTAL_LIST_H
 

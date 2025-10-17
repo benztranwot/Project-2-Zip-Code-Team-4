@@ -1,5 +1,5 @@
 /**
- * @file readCSV.cpp
+ * @file readPostalCodeBuffer.cpp
  * @brief Utility functions for reading postal code data from a CSV file.
  *
  * @course CSCI 331 - Software Systems — Fall 2025
