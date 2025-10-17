@@ -1,3 +1,8 @@
+/**
+ * @file make_index.cpp
+ * @brief Builds or loads an index for fast lookup of postal code records from a CSV file.
+ */
+
 #include <iostream>
 #include <fstream>
 #include <unordered_map>
@@ -8,6 +13,14 @@
 
 const std::string DATA_FILE = "us_postal_codes.csv";
 const std::string INDEX_FILE = "indexfile.bin";
+
+/**
+ * @brief Splits a string by a given delimiter.
+ *
+ * @param s The string to split.
+ * @param delimiter The character to split by.
+ * @return A vector of substrings.
+ */
 
 std::vector<std::string> split(const std::string &s, char delimiter)
 {
@@ -22,6 +35,12 @@ std::vector<std::string> split(const std::string &s, char delimiter)
     return result;
 }
 
+/**
+ * @brief Prints a formatted postal code record from a CSV line.
+ *
+ * @param line A line from the CSV file representing a postal code record.
+ */
+
 void printRecord(const std::string &line)
 {
     auto fields = split(line, ',');
@@ -33,6 +52,18 @@ void printRecord(const std::string &line)
     }
     std::cout << "\n";
 }
+
+/**
+ * @brief Main function to build or load an index and retrieve postal code records.
+ *
+ * If the index file exists, it loads the index from disk. Otherwise, it builds a new index
+ * from the CSV file and writes it to disk. Then it retrieves and prints records for ZIP codes
+ * passed via command-line arguments using the `-Z` flag.
+ *
+ * @param argc Argument count.
+ * @param argv Argument vector.
+ * @return int Exit code.
+ */
 
 int main(int argc, char *argv[])
 {
