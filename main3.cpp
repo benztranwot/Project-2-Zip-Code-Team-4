@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
      // Create a variable for csv file name
-     string fileName = "us_postal_codes_ROWS_RANDOMIZED_length_indicated_header_record.txt";
+     string fileName = "us_postal_codes_length_indicated_header_record.txt";
 
      // Create an instance for HeaderRecordPostalList
      HeaderRecordPostalList myHeaderRecordPostalList;
@@ -17,7 +17,7 @@ int main()
      inputCSVtoList(myHeaderRecordPostalList, fileName);
 
      // Display the header with the appropriate table
-     cout << "A table of all the postal sorted by zip:" << endl
+     cout << "A table of all the postal sorted by zip from length indicated records:" << endl
           << endl;
      cout << left << setw(5) << "HR"
           << setw(10) << "Zip Code"

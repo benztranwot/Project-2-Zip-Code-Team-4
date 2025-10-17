@@ -27,7 +27,7 @@ int main()
      inputCSVtoList(myPostalList, fileName);
 
      // Display the header with the appropriate table
-     cout << "A table of all the postal sorted by zip:" << endl
+     cout << "A table of all the postal sorted by zip from row randomized csv:" << endl
           << endl;
      cout << left << setw(10) << "Zip Code"
           << setw(20) << "Place Name"
